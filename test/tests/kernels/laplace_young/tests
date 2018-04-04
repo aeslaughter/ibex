@@ -1,0 +1,7 @@
+[Tests]
+  [laplace-young]
+    type = Exodiff
+    input = laplace_young.i
+    exodiff = laplace_young_out.e
+  []
+[]
